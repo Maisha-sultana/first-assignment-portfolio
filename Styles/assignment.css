@@ -4,7 +4,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* Template Header Part */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Navbar and Banner Section */
 .nav-title{
     font-size: 32px;
     color: rgba(78, 71, 255, 1);
@@ -18,6 +24,9 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: darksalmon;
 }
 nav{
     display: flex;
@@ -38,7 +47,55 @@ nav{
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
     text-align: center;
+    margin-bottom: 37px;
 }
 .text-center{
     text-align: center;
+}
+/* Action Section */
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.action-discription{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 160px 0 140px;
+    gap: 220px;
+}
+/* Productive User Section */
+.productive-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 116px 159px 0 141px;
+    border-radius: 20px;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: 800;
+    padding: 50px 142px 40px 142px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: 800;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+.subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+.about-productives{
+    display: flex;
+    justify-content: space-around;
+    padding: 135px 142px 50px 142;
 }
