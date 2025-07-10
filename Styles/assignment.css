@@ -1,0 +1,36 @@
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Template Header Part */
+.nav-title{
+    font-size: 32px;
+    color: rgba(78, 71, 255, 1);
+    font-weight: 800;
+}
+.btn-primary{
+    background-color:rgba(78, 71, 255, 1);
+    color: white;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+}
+.btn-1{
+    margin: 37px 360px;
+}
