@@ -159,3 +159,80 @@ nav{
     margin-bottom: 71px;
     border-radius: 40px;
 }
+/* Lets get touch section */
+.section-title{
+    font-size: 97px;
+    font-weight: 800;
+    width: 525px;
+}
+.section{
+   padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.section-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+}
+
+.section-form input,
+.section-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.btn-second{
+    background-color:rgba(78, 71, 255, 1);
+    color: white;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.btn-second:hover{
+    background-color: coral;
+}
+/* Footer Section */
+
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 8px;
+    padding-top: 104px;
+}
+.footer-discribe{
+    color: rgba(137, 135, 161, 1); 
+    width: 500px; 
+     margin: 8px 750px;
+     text-align: center;
+}
+.footer-bg{
+    background-color: white;
+    height: 430px;
+}
+.dark{
+    color: rgba(137, 135, 161, 1);
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+.footer li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer{
+    margin: 8px 750px;
+}
