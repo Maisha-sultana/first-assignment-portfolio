@@ -1,4 +1,4 @@
-
+/* Fonts */
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -10,18 +10,21 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.primary-bg{
+    background-color: #f5f8ff;
+}
 /* Navbar and Banner Section */
 .nav-title{
     font-size: 32px;
     color: rgba(78, 71, 255, 1);
-    font-weight: 800;
+    font-weight: 900;
 }
 .btn-primary{
     background-color:rgba(78, 71, 255, 1);
     color: white;
     padding: 12px 36px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
 }
@@ -68,6 +71,9 @@ nav{
     margin: 116px 160px 0 140px;
     gap: 220px;
 }
+.action-pic{
+    border-radius: 48px;
+}
 /* Productive User Section */
 .productive-bg{
     background-color: rgba(78, 71, 255, 0.1);
@@ -98,4 +104,58 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 135px 142px 50px 142;
+}
+/*User Feedback Section*/
+.user-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 135px;
+}
+.review-discription{
+    color: rgba(30, 30, 30, 1);
+}
+.rvw-name{
+    color: rgba(117, 117, 117, 1);
+    font-weight: bold;
+    margin: 0;
+}
+.rvw-date{
+    color: rgba(179, 179, 179, 1);
+    margin: 0;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.review{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(127, 90, 90, 0.06);
+    border-radius: 10px;
+}
+.review-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+/* Optional Section */
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.bg-optn{
+    background-color: white;
+    margin: 116px 159px 0 141px;
+    border-radius: 20px;
+}
+
+.big-img{
+    margin-top: 40px;
+    margin-bottom: 71px;
+    border-radius: 40px;
 }
